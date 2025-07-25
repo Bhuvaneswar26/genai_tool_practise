@@ -30,7 +30,7 @@ public class ValidateISBN {
 				}
 			}
 			else {
-				total += isbn.charAt(i) * (SHORT_ISBN_LENGTH -i);
+				total += Character.getNumericValue(isbn.charAt(i)) * (SHORT_ISBN_LENGTH - i);
 			}
 		}
 
@@ -42,10 +42,10 @@ public class ValidateISBN {
 		
 		for (int i = 0; i < LONG_ISBN_LENGTH; i++) {
 			if (i % 2 == 0) {
-				total += isbn.charAt(i);
+				total += Character.getNumericValue(isbn.charAt(i));
 			}
 			else {
-				total += isbn.charAt(i) * 3;
+				total += Character.getNumericValue(isbn.charAt(i)) * 3;
 			}
 		}
 		return (total % LONG_ISBN_MULTIPLIER == 0);
