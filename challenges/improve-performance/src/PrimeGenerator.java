@@ -10,7 +10,7 @@ public class PrimeGenerator {
         System.out.println("About to find " + size + " primes.");
 
        List<BigInteger> primes = new ArrayList<>();
-        
+        Random random = new Random();
         for (int i = 0; i < size; i++) {
             primes.add(new BigInteger(2000, new Random()).nextProbablePrime());
         }
