@@ -12,6 +12,13 @@ There are no tests at all so you will be starting from scratch. Create as many s
 
 If you are running out of time, create as many tests as you can. You will get points for the tests that you create.
 
+## Suggested Approach
+
+1. Use JUnit as the testing framework for this Java Spring Boot application.
+2. Identify key functionalities and edge cases in the application.
+3. Write unit tests for each functionality, ensuring proper coverage.
+4. Run the tests and verify that all pass successfully.
+5. Refactor the code if necessary to improve .
 ## Points
 Up to 400 points
 
