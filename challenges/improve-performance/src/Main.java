@@ -10,6 +10,10 @@ public class Main {
         List<BigInteger> results = primeGenerator.getPrimes(100);
         Long end = System.currentTimeMillis();
         System.out.println("The time taken was " + (end - start) + " ms.");
-        System.out.println("The first number found was : " + results.get(0));
+        if (!results.isEmpty()) {
+            System.out.println("The first number found was : " + results.get(0));
+        } else {
+            System.out.println("No prime numbers were found.");
+        }
     }
 }
