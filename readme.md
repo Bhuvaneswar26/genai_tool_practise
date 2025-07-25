@@ -2,6 +2,9 @@
 
 ![Alt text](./images/genaijam.png)
 
+
+bsadhjcvan 
+
 ## Introduction
 In this JAM session, we will explore the exciting world of Generative AI and its
 applications. In this session, we will be focusing on the use of Gen AI in the world of 
